@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<!--as of now everything that is not a page, will be a post, e.g.  where I write story content -->
+<!-- layout of the every category EXCEPT home  and All Articles -->
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
